@@ -20,8 +20,3 @@ steps:
     npm install
     npm build
   displayName: 'npm install and build'
-# Publish Artifacts
-- task: PublishBuildArtifacts@1
-  inputs:
-    artifactName: dist
-    pathtoPublish: 'dist'
